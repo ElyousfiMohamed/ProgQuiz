@@ -1,0 +1,121 @@
+/* les page de cette section (administration) n'est pas compatible avec le mobile (pas de responsive) */
+.section1 {
+  display: grid;
+  grid-template-areas: 'titre logout';
+  grid-gap: 200px;
+  margin: 80px 80px;
+  background-color: #337ab7;
+  padding: 50px;
+  color: white;
+  font-style: arial;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  border-radius: 10px;
+}
+
+.section1 .titre {
+  grid-area: titre;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.section1 .fas {
+  grid-area: logout;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+.section1 .fas a {
+  text-decoration: none;
+  color: white;
+}
+
+.section2 {
+  background: #ddd;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px;
+  margin: 80px 80px;
+}
+
+.image {
+  width: 500px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+.info {
+  margin-right: 100px;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: auto;
+  background: #333;
+  color: #ffff;
+  text-align: center;
+  padding: 16px;
+}
+
+.sec {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+/* Navigation */
+.btn {
+  height: 50px;
+  width: 280px;
+}
+
+.main-nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.section3 h2,
+.section4 h2,
+.section5 h2 {
+  text-align: center;
+  color: #337ab7;
+  font-weight: bold;
+  font-style: helvitica;
+}
+
+#col1 {
+  background-color: black;
+  color: white;
+}
+
+.table {
+  width: 90%;
+  margin: 80px 80px;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);;
+}
+
+.titre2 {
+  padding: 50px;
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);;
+}
+
+.panel {
+  margin-top: 20px;
+}
+
+.modif {
+  color: #337ab7;
+}
+
+.modif:hover {
+  text-decoration: none;
+  color: red;
+}
